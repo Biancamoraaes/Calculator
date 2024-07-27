@@ -1,0 +1,39 @@
+:root {
+  --stroke-color: rgb(229, 248, 244);
+}
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #22939b;
+}
+.container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+a.text {
+  display: inline-block;
+  padding: 20px;
+  background-color: rgb(170, 32, 197);
+  color: var(--stroke-color);
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  border: 2px solid var(--stroke-color);
+  border-radius: 10px;
+  transition: background-color 0.2s, color 0.2s;
+}
+a.text:hover {
+  background-color: var(--stroke-color);
+  color: rgb(170, 32, 197);
+}
+footer {
+  margin: 10px;
+  text-align: center;
+  padding: 1em;
+  color: var(--stroke-color);
+  font-family: "Nunito", sans-serif;
+}

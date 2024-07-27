@@ -1,0 +1,105 @@
+:root {
+  --stroke-color: rgb(229, 248, 244);
+  --button-background-color: rgb(170, 32, 197);
+  --button-hover-background-color: var(--stroke-color);
+  --button-hover-color: rgb(170, 32, 197);
+  --text-color: var(--stroke-color); /* Define a cor do texto */
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #22939b;
+}
+
+header {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 10;
+}
+
+a.back-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: var(--button-background-color);
+  color: var(--stroke-color);
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  border: 2px solid var(--stroke-color);
+  border-radius: 5px;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+a.back-button:hover {
+  background-color: var(--button-hover-background-color);
+  color: var(--button-hover-color);
+}
+
+#target-section {
+  margin-top: 80px;
+  padding: 20px;
+  background-color: #22939b;
+  color: var(--text-color);
+  flex: 1;
+}
+
+#target-section h2,
+#target-section p {
+  color: var(--text-color);
+}
+
+.calculator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+#display {
+  width: 200px;
+  height: 40px;
+  margin-bottom: 10px;
+  text-align: right;
+  font-size: 24px;
+  padding: 5px;
+  border: 2px solid var(--stroke-color);
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 50px);
+  gap: 10px;
+}
+
+.btn {
+  width: 50px;
+  height: 50px;
+  background-color: var(--button-background-color);
+  color: var(--stroke-color);
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 50px;
+  border: 2px solid var(--stroke-color);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.btn:hover {
+  background-color: var(--button-hover-background-color);
+  color: var(--button-hover-color);
+}
+
+footer {
+  margin: 20px;
+  text-align: center;
+  padding: 1em;
+  background-color: var(--footer-background-color);
+  color: var(--stroke-color);
+  font-family: "Nunito", sans-serif;
+}
