@@ -1,4 +1,4 @@
-<h1 align="center"> CALCULATOR JS</h1>
+<h1 align="center"> CALCULATOR </h1>
 
 <p align="center">
 
