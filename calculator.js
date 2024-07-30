@@ -12,7 +12,7 @@ const prefix = " ♥ "
           try {
             display.value = prefix + eval(display.value)
           } catch {
-            display.value = "Ó O ERRO MAN"
+            display.value = "DEU ERRO MAN"
           }
           break
         default:
