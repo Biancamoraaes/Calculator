@@ -1,13 +1,13 @@
 document.addEventListener("DOMContentLoaded", function () {
   let display = document.getElementById("display")
   let buttons = Array.from(document.getElementsByClassName("btn"))
-const prefix = " ♥ "
+  const prefix = " ♥ "
   buttons.map((button) => {
     button.addEventListener("click", (e) => {
       switch (e.target.innerText) {
         case "C":
           display.value = ""
-          break;
+          break
         case "=":
           try {
             display.value = prefix + eval(display.value)
@@ -16,7 +16,7 @@ const prefix = " ♥ "
           }
           break
         default:
-          display.value += e.target.innerText;
+          display.value += e.target.innerText
       }
     })
   })
