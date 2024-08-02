@@ -1,5 +1,5 @@
 :root {
-  --stroke-color: rgb(229, 248, 244);
+  --stroke-color: rgb(223, 252, 245);
 }
 body {
   margin: 0;
@@ -28,7 +28,7 @@ a.text {
 }
 a.text:hover {
   background-color: var(--stroke-color);
-  color: rgb(170, 32, 197);
+  color: rgb(161, 48, 184);
 }
 footer {
   margin: 10px;
