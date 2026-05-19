@@ -2,7 +2,7 @@
 
 <p align="center">
 
- ♥ Created by Bianca ♥ </p>
+ ♥ _Created by Bianca_ ♥ </p>
 
  <p align="center">
   <img alt="calculator" src=".github/Read-image.png" width="100%">
@@ -14,4 +14,4 @@ This project was developed with the following technologies:
 - JavaScript
 - Git and Github
 
-Made with ♥ by Bianca
+Made with ♥ by _Bianca_
