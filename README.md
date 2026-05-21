@@ -2,7 +2,7 @@
 
 <p align="center">
 
- ♥ _Created by Bianca_ ♥ </p>
+ ♥ _Created by Bianca M_ ♥ </p>
 
  <p align="center">
   <img alt="calculator" src=".github/Read-image.png" width="100%">
