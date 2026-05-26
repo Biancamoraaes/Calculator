@@ -14,4 +14,4 @@ This project was developed with the following technologies:
 - JavaScript
 - Git and Github
 
-Made with ♥ by _Bianca_
+Made with ♥ by _Bianca Moraes_
